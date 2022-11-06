@@ -1,0 +1,42 @@
+{
+    "name": "Thumbnail Extractor Bot",
+    "description": "Extract Thumbnail from media instantly",
+    "keywords": [
+        "telegram",
+        "thumbnail extractor",
+	"media",
+	"thumbnail",
+	"video",
+	"document",
+	"audio"
+    ],
+    "website": "https://github.com/AkBotZ/Thumbnail-Extractor-Bot",
+    "repository": "https://github.com/AkBotZ/Thumbnail-Extractor-Bot",
+    "env": {
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token, Get it from @Botfather",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "heroku-22"
+}
