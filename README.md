@@ -1,5 +1,5 @@
 # Thumbnail Extractor
-Exttract Thumbnail from media instantly.
+Extract Thumbnail from media instantly.
 ### Installation
 
 #### The Easy Way
