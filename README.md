@@ -9,6 +9,9 @@ Extract Thumbnail from media instantly.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/si-nn-er-ls/Thumbnail-Extractor-Bot-render)
+
 ##### Required Variables
 
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
