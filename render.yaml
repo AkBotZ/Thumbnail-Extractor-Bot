@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: Thumbnail-Extractor-Bot-render
+    runtime: docker
+    plan: free
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
